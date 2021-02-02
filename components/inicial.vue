@@ -16,9 +16,15 @@
 
 <style scoped>
 .inicial {
+    display: flex;
+    flex-flow: column;
     width: 100vw;
-    height: 35vh;
+    height: 39vh;
     background: grey;
+    padding: 3%;
+}
+button {
+    width: 9%;
 }
 
 </style>

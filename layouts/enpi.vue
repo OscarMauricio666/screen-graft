@@ -20,4 +20,8 @@ import pie from "../components/pie";
 
 <style scoped>
 
+.enpi {
+    width: 50%;
+}
+
 </style>

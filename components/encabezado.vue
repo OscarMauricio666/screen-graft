@@ -16,7 +16,11 @@
             </div>
             <!-- NOTE - Segunda fila logo y enlaces -->
         <div class="fila_dos">
-            <div class="logo">Aca va el logo</div>
+            <div class="logo">
+                <picture>
+                    <!-- <img src="../assets/logos/screen_graft_logo.png" alt=""> -->
+                </picture>
+            </div>
         <div class="enlaces">
             <nav>
                 <button>
@@ -55,14 +59,13 @@
     display: flex;
     width: 100vw;
     height: 3vh;
-    display: block;
     position: absolute;
     /* z-index: 10; */
     top: 0%;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .Titulo {
-    width: 100vw;
+    width: auto;
     position: relative;
     /* z-index: 20; */
     left: 40%;
@@ -98,6 +101,11 @@
     width: 80%;
     height: 12vh;
     align-items: flex-end;
+    justify-content: flex-end;
+
+}
+h1 {
+    width: 50vw;
 }
 
 </style>

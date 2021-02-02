@@ -12,6 +12,8 @@
 
 <style scoped>
 .pie {
+    display: flex;
+    flex-flow: row;
     width: 100vw;
     height: 15vh;
     background: blue;

@@ -13,9 +13,12 @@
 
 <style scoped>
 .servicios {
+    display: flex;
+    flex-flow: column;
     width: 100vw;
-    height: 40vh;
+    height: 39vh;
     background: greenyellow;
+    padding: 3%;
 }
 
 </style>
